@@ -58,7 +58,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1094, 131);
             this.panel1.TabIndex = 8;
@@ -87,7 +87,7 @@
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Location = new System.Drawing.Point(112, 101);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(869, 489);
             this.panel2.TabIndex = 9;
@@ -119,7 +119,7 @@
             this.panel3.Controls.Add(this.LoginPass1);
             this.panel3.Controls.Add(this.LoginText1);
             this.panel3.Location = new System.Drawing.Point(422, -10);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(452, 498);
             this.panel3.TabIndex = 24;
@@ -130,7 +130,7 @@
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F);
             this.checkBox1.ForeColor = System.Drawing.Color.White;
             this.checkBox1.Location = new System.Drawing.Point(254, 350);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(136, 22);
             this.checkBox1.TabIndex = 33;
@@ -161,7 +161,7 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(63, 350);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(131, 52);
             this.button2.TabIndex = 30;
@@ -220,7 +220,7 @@
             this.LoginPass1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginPass1.ForeColor = System.Drawing.Color.Black;
             this.LoginPass1.Location = new System.Drawing.Point(62, 292);
-            this.LoginPass1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LoginPass1.Margin = new System.Windows.Forms.Padding(2);
             this.LoginPass1.Name = "LoginPass1";
             this.LoginPass1.PasswordChar = '*';
             this.LoginPass1.Size = new System.Drawing.Size(334, 33);
@@ -233,7 +233,7 @@
             this.LoginText1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginText1.ForeColor = System.Drawing.Color.Black;
             this.LoginText1.Location = new System.Drawing.Point(62, 197);
-            this.LoginText1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LoginText1.Margin = new System.Windows.Forms.Padding(2);
             this.LoginText1.Name = "LoginText1";
             this.LoginText1.Size = new System.Drawing.Size(334, 33);
             this.LoginText1.TabIndex = 25;
@@ -245,7 +245,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(22, 17);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(385, 339);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -261,7 +261,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
